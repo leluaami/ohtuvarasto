@@ -16,7 +16,8 @@ class Varasto:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
 
-    # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
+    # Ominaisuus voidaan myös laskea.
+    # Erillistä viela_tilaa-kenttää ei tarvita.
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
 
